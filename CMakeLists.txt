@@ -53,3 +53,6 @@ target_link_libraries(openCV_draw ${OpenCV_LIBS})
 
 add_executable(openCV_warp src/3-warp.cpp)
 target_link_libraries(openCV_warp ${OpenCV_LIBS})
+
+add_executable(openCV_color-detection src/4-color-detection.cpp)
+target_link_libraries(openCV_color-detection ${OpenCV_LIBS})
