@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
     cv::Mat grayImg; // gray
     cv::cvtColor(img, grayImg, cv::COLOR_BGR2GRAY);
     cv::Mat blurImg; // Blur
-    cv::GaussianBlur(img, blurImg, cv::Size(7, 7), 5, 0);
+    cv::GaussianBlur(grayImg, blurImg, cv::Size(7, 7), 5, 0);
     cv::Mat cannyImg; // Canny
     cv::Canny(blurImg, cannyImg, 25, 75);
 

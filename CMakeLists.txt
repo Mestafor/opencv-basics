@@ -56,3 +56,6 @@ target_link_libraries(openCV_warp ${OpenCV_LIBS})
 
 add_executable(openCV_color-detection src/4-color-detection.cpp)
 target_link_libraries(openCV_color-detection ${OpenCV_LIBS})
+
+add_executable(openCV_shapes-detection src/5-shapes-detection.cpp)
+target_link_libraries(openCV_shapes-detection ${OpenCV_LIBS})
