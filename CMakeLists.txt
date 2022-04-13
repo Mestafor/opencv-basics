@@ -59,3 +59,6 @@ target_link_libraries(openCV_color-detection ${OpenCV_LIBS})
 
 add_executable(openCV_shapes-detection src/5-shapes-detection.cpp)
 target_link_libraries(openCV_shapes-detection ${OpenCV_LIBS})
+
+add_executable(openCV_face-detection src/6-face-detection.cpp)
+target_link_libraries(openCV_face-detection ${OpenCV_LIBS})
