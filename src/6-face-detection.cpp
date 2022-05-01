@@ -33,7 +33,7 @@ int main(int argc, char** argv) {
     // WebCam
     cv::VideoCapture cap(0);
     cv::Mat img;
-    while(true) {
+    while(cap.isOpened()) {
         cap.read(img);
 
         std::vector<cv::Rect> faces;

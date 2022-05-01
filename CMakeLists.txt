@@ -62,3 +62,6 @@ target_link_libraries(openCV_shapes-detection ${OpenCV_LIBS})
 
 add_executable(openCV_face-detection src/6-face-detection.cpp)
 target_link_libraries(openCV_face-detection ${OpenCV_LIBS})
+
+add_executable(openCV_motion-detection src/7-motion-detection.cpp)
+target_link_libraries(openCV_motion-detection ${OpenCV_LIBS})
